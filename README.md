@@ -55,11 +55,3 @@ Built with **React**, **TypeScript**, and **Google Gemini AI**.
     * **Chat**: Ask "How do I start?" for a conceptual nudge.
     * **Follow Up**: Click this after solving to get an optimization challenge.
     * **Analyze Complexity**: Get a breakdown of your Time/Space complexity.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-
-*Built with ❤️ by [Your Name]*
