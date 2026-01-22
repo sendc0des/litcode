@@ -1,4 +1,4 @@
-# 🔥 LitCode - Socratic AI Mentor for LeetCode
+# 🔥 LitCode - Socratic Assistant for LeetCode
 
 **LitCode** is a professional Chrome Extension that transforms LeetCode into an active learning environment. Instead of giving you the answers, it acts as a **Socratic Mentor**, guiding you through problems with conceptual hints, complexity analysis, and interview-style follow-up questions.
 
@@ -8,7 +8,7 @@ Built with **React**, **TypeScript**, and **Google Gemini AI**.
 
 ## ✨ Key Features
 
-* **🧠 Socratic Mentorship**: The AI discusses *ideologies* and *concepts*, not code. It nudges you toward the solution without spoon-feeding the answer.
+* **🧠 Socratic Assistant**: The AI discusses *ideologies* and *concepts*, not code. It nudges you toward the solution without spoon-feeding the answer.
 * **⚡ Complexity Analysis**: Instantly analyzes your current solution and provides a strict Big-O (Time & Space) assessment.
 * **🎯 Interview Follow-Ups**: Acts like a senior interviewer. If your code is optimal, it challenges you with constraint twists (e.g., "What if the input was sorted?").
 * **🎨 Professional UI**: A sleek, resizable dark-mode interface designed to blend seamlessly with the LeetCode editor.
