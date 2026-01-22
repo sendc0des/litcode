@@ -14,6 +14,15 @@ Built with **React**, **TypeScript**, and **Google Gemini AI**.
 * **🎨 Professional UI**: A sleek, resizable dark-mode interface designed to blend seamlessly with the LeetCode editor.
 * **⌨️ Developer Friendly**: Full Markdown support, syntax highlighting, and keyboard shortcuts (`Alt+L` to toggle).
 
+* ## 🔒 Privacy & Security
+
+We take your security seriously. LitCode operates on a **"Bring Your Own Key" (BYOK)** model, meaning:
+
+1.  **Local Storage Only**: Your Google Gemini API Key is stored exclusively in your browser's local storage (`chrome.storage.local`).
+2.  **No Middleman Server**: Your key is never sent to a LitCode server. It is used directly by your browser to authenticate with Google's API (`generativelanguage.googleapis.com`).
+3.  **Client-Side Operation**: All code analysis happens on your machine. We do not track your problems or solutions.
+4.  **Open Source**: This project is open source. You can audit the code in `utils/ai.ts` to verify how your key is used.
+
 ## 🚀 Installation & Setup
 
 1.  **Clone the repository**
