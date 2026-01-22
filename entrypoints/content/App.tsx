@@ -192,16 +192,22 @@ export default function App() {
         </button>
       </div>
 
-      {/* API Key */}
-      <div className="px-4 py-3 bg-zinc-900 border-b border-zinc-800 flex items-center gap-2">
-        <Key size={14} className="text-orange-500" />
-        <input 
-          type="password" 
-          placeholder="Enter Gemini API Key"
-          className="bg-transparent outline-none text-xs w-full text-zinc-300 placeholder-zinc-600 focus:text-white transition-all"
-          value={apiKey}
-          onChange={(e) => setApiKey(e.target.value)}
-        />
+      {/* API Key Section */}
+      <div className="px-4 py-3 bg-zinc-900 border-b border-zinc-800 flex flex-col gap-2">
+        <div className="flex items-center gap-2">
+          <Key size={14} className="text-orange-500 shrink-0" />
+          <input 
+            type="password" 
+            placeholder="Enter Gemini API Key"
+            className="bg-transparent outline-none text-xs w-full text-zinc-300 placeholder-zinc-600 focus:text-white transition-all"
+            value={apiKey}
+            onChange={(e) => setApiKey(e.target.value)}
+          />
+        </div>
+        {/* Security Disclaimer */}
+        <p className="text-[10px] text-zinc-500 leading-tight ml-6">
+          Your key is stored locally on your device and never sent to our servers.
+        </p>
       </div>
 
       {/* Chat Area */}
