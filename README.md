@@ -14,7 +14,7 @@ Built with **React**, **TypeScript**, and **Google Gemini AI**.
 * **🎨 Professional UI**: A sleek, resizable dark-mode interface designed to blend seamlessly with the LeetCode editor.
 * **⌨️ Developer Friendly**: Full Markdown support, syntax highlighting, and keyboard shortcuts (`Alt+L` to toggle).
 
-* ## 🔒 Privacy & Security
+## 🔒 Privacy & Security
 
 We take your security seriously. LitCode operates on a **"Bring Your Own Key" (BYOK)** model, meaning:
 
