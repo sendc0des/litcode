@@ -15,9 +15,11 @@
     "postinstall": "wxt prepare"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.74.0",
     "@google/generative-ai": "^0.24.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.562.0",
+    "openai": "^6.22.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-markdown": "^10.1.0",
@@ -26,6 +28,7 @@
     "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
+    "@types/chrome": "^0.1.36",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "@types/react-syntax-highlighter": "^15.5.13",
